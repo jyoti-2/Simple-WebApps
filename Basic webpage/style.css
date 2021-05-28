@@ -1,0 +1,50 @@
+/*
+CSS layout is mostly based on the box model. Each box taking up space on your page has properties like:
+
+padding, the space around the content. In the example below, it is the space around the paragraph text.
+border, the solid line that is just outside the padding.
+margin, the space around the outside of the border.
+*/
+
+
+html{   /* all ele will inherit the same*/
+    font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #22cabc;
+}
+
+body {
+   
+    margin: 0 auto;
+    background-color: #aab379;
+    padding: 0 20px 20px 20px;
+   
+  }
+
+p {
+    color: black;  /* p - selector, color- property, red - property value*/  
+    font-size: 16px;
+    line-height:2;
+    letter-spacing: 1px;
+    text-align:center;
+
+      
+}
+
+h1, h2, h4{
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+}
+
+ul, ol{
+    color: black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
